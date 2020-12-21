@@ -1,0 +1,120 @@
+@font-face {
+    font-family: 'Raleway';
+    src: url(../assets/font/Raleway-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: 'Playfair Display';
+    src: url(../assets/font/static/PlayfairDisplay-ExtraBold.ttf);
+}
+@font-face {
+    font-family: 'Righteous';
+    src: url(../assets/font/Righteous-Regular.ttf);
+}
+
+
+body {
+    font-family: 'Raleway', sans-serif !important;
+}
+.judul {
+    font-family: 'Playfair Display', serif;
+    color: #0E6655;
+    margin-bottom: 32px;
+    text-shadow: 1px 1px 0 #000;
+}
+.tombol {
+    color: #fff !important;
+    font-weight: 600 !important;
+    border-radius: 12px !important;
+    margin-right: 18px;
+}
+
+
+@media (min-width: 992px) {
+    .nav-link {
+        text-transform: uppercase;
+    }
+    #home {
+        padding-top: 80px;
+    }
+    .about-text {
+        position: absolute;
+        top: 90px;
+        left: -75px;
+    }
+    .panel {
+        position: relative;
+    }
+}
+
+
+/* ----------navbar */
+.navbar {
+    padding: 12px 0;
+}
+.navbar-brand {
+    font-family: 'Righteous', cursive;
+    font-size: 32px !important;
+}
+.nav-link {
+    padding: 0 12px !important;
+    font-weight: 600;
+}
+.waves {
+    width: 100%;
+}
+
+
+/* ----------home */
+.home-text {
+    margin-top: 100px !important;
+    color: #0E6655;
+}
+.home-text h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 44px;
+}
+.home-text p {
+    font-size: 18px;
+    margin-bottom: 32px;
+    font-weight: 300;
+}
+.home-text span {
+    font-weight: 700;
+}
+
+
+/* ----------about */
+#about {
+    background-color: #85C1E9;
+}
+.about-text {
+    padding: 20px 20px 60px 20px;
+    box-shadow: 0 24px 12px rgba(0, 0, 0, 0.5);
+    background-color: #fff;
+    text-align: left;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+.about-text h4, h5 {
+    font-family: 'Playfair Display', serif;
+    color: #0E6655;
+}
+.gambar {
+    margin: 40px 0;
+    opacity: 0.8;
+    width: 90%;
+    border-radius: 4px;
+}
+
+
+/* ----------places */
+.col-md-4 {
+    padding-bottom: 42px;
+}
+.col-md-4 img {
+    width: 50%;
+}
+.col-md-4 h4 {
+    font-family: 'Righteous', cursive;
+    padding-top: 20px;
+}

@@ -34,7 +34,7 @@ body {
         text-transform: uppercase;
     }
     #home {
-        padding-top: 80px;
+        padding-top: 115px;
     }
     .about-text {
         position: absolute;
@@ -66,7 +66,7 @@ body {
 
 /* ----------home */
 .home-text {
-    margin-top: 100px !important;
+    margin-top: 80px !important;
     color: #0E6655;
 }
 .home-text h1 {
@@ -75,17 +75,20 @@ body {
 }
 .home-text p {
     font-size: 18px;
-    margin-bottom: 32px;
+    margin-bottom: 42px;
     font-weight: 300;
 }
 .home-text span {
     font-weight: 700;
 }
+.home-img {
+    width: 100%;
+}
 
 
 /* ----------about */
 #about {
-    background-color: #85C1E9;
+    background-color: #AED6F1;
 }
 .about-text {
     padding: 20px 20px 60px 20px;
@@ -99,10 +102,10 @@ body {
     font-family: 'Playfair Display', serif;
     color: #0E6655;
 }
-.gambar {
+.about-img {
     margin: 40px 0;
     opacity: 0.8;
-    width: 90%;
+    width: 100%;
     border-radius: 4px;
 }
 

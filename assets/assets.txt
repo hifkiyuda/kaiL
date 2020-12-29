@@ -10,12 +10,36 @@ https://hilitemall.com/images/bottom-shape.png
 4. wave2.png
 https://www.rivieracentre.co.uk/images/wave.png
 
-4. sea.png
+5.wave3.png
+https://senion.com/wp-content/uploads/2019/02/bg-overlay-white-wave1.png
+
+6. wave4.png
+https://www.rivieracentre.co.uk/images/wave.png
+
+7. sea.png
 https://www.flaticon.com/free-icon/beach_3175199?term=sea&page=1&position=6&related_item_id=3175199
 
-5. lake.png
+8. lake.png
 https://www.flaticon.com/free-icon/lake_3277621?term=lake&page=1&position=3&related_item_id=3277621
 
-6. river.png
+9. river.png
 https://www.flaticon.com/free-icon/river_1788801?term=river&page=1&position=7&related_item_id=1788801
+
+10. boat.png
+https://www.flaticon.com/free-icon/boat_3588261?term=boat&page=1&position=52&related_item_id=3588261
+
+11. tour.png
+https://www.flaticon.com/free-icon/tour_827107?term=tour&page=1&position=21&related_item_id=827107
+
+12. equipment.png
+https://www.flaticon.com/free-icon/bait_1411268?term=fishing%20tools&page=2&position=15&related_item_id=1411268
+
+13. cottage.png
+https://www.flaticon.com/free-icon/cabin_2104794?term=wood%20cabin&page=1&position=34&related_item_id=2104794
+
+14. icon dari font awesome 4
+https://fontawesome.com/v4.7.0/icons/
+
+
+
 

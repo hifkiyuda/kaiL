@@ -4,7 +4,7 @@
 }
 @font-face {
     font-family: 'Playfair Display';
-    src: url(../assets/font/static/PlayfairDisplay-ExtraBold.ttf);
+    src: url(../assets/font/PlayfairDisplay-ExtraBold.ttf);
 }
 @font-face {
     font-family: 'Righteous';
@@ -18,23 +18,25 @@ body {
 .judul {
     font-family: 'Playfair Display', serif;
     color: #0E6655;
-    margin-bottom: 32px;
+    margin-bottom: 24px;
     text-shadow: 1px 1px 0 #000;
 }
 .tombol {
     color: #fff !important;
     font-weight: 600 !important;
     border-radius: 12px !important;
+    margin-top: 12px;
     margin-right: 18px;
+    transition: all .3s ease !important;
+}
+.tombol:hover {
+    transform: scale(0.9);
 }
 
 
 @media (min-width: 992px) {
-    .nav-link {
-        text-transform: uppercase;
-    }
     #home {
-        padding-top: 115px;
+        padding-top: 70px;
     }
     .about-text {
         position: absolute;
@@ -58,6 +60,7 @@ body {
 .nav-link {
     padding: 0 12px !important;
     font-weight: 600;
+    font-size: 18px;
 }
 .waves {
     width: 100%;
@@ -66,7 +69,7 @@ body {
 
 /* ----------home */
 .home-text {
-    margin-top: 80px !important;
+    margin-top: 120px !important;
     color: #0E6655;
 }
 .home-text h1 {
@@ -75,7 +78,7 @@ body {
 }
 .home-text p {
     font-size: 18px;
-    margin-bottom: 42px;
+    margin-bottom: 32px;
     font-weight: 300;
 }
 .home-text span {
@@ -83,12 +86,13 @@ body {
 }
 .home-img {
     width: 100%;
+    margin-top: 48px;
 }
 
 
 /* ----------about */
 #about {
-    background-color: #AED6F1;
+    background-image: linear-gradient(to top, #5499C7, #AED6F1);
 }
 .about-text {
     padding: 20px 20px 60px 20px;
@@ -110,14 +114,50 @@ body {
 }
 
 
-/* ----------places */
-.col-md-4 {
-    padding-bottom: 42px;
+/* ----------places & services */
+#places, #services {
+    padding-bottom: 100px;
 }
-.col-md-4 img {
+.places-list, .services-list {
+    padding-bottom: 20px;
+}
+.places-list img, .services-list img {
     width: 50%;
+    margin: 20px 0;
 }
-.col-md-4 h4 {
+.places-list h4, .services-list h4 {
     font-family: 'Righteous', cursive;
     padding-top: 20px;
+}
+#places img, #services img {
+    transition: all .3s ease !important;
+}
+#places img:hover, #services img:hover {
+    transform: scale(1.2);
+    filter: opacity(75%);
+}
+
+
+/* ----------register & contact */
+#reg-cont {
+    background-image: linear-gradient(to top, #5499C7, #AED6F1);
+}
+.contact-item {
+    background-color: #fff;
+    padding: 11px;
+    border-radius: 4px;
+    color: #000;
+    margin-top: 54px !important;
+    margin-bottom: 32px;
+}
+
+
+/* ----------footer */
+footer p {
+    font-size: 18px;
+    font-weight: 600;
+    padding: 8px 0 12px 0;
+}
+footer p span {
+    font-family: 'Righteous', cursive;
 }
